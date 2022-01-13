@@ -1,0 +1,6 @@
+- name: installation nginx
+  hosts: all
+  remote_user: ludo
+  become: yes
+  roles:
+    - nginx
