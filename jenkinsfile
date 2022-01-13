@@ -1,6 +1,6 @@
 node{
     stage('Clone') {
-	checkput scm
+	checkout scm
     }
     stage('Ansible') {
       ansiblePlaybook (
